@@ -826,7 +826,7 @@ P.D.: No especifica si se debe colocar una columna nueva, indicando su estatus =
     <?php  $valor = 0; ?> 
      
     <?php foreach ($array as $key => $value) { ?> 
-          <?php if ( $value["tipo"] == 'ST300STT' and $value["estado_io"][0] == 1 and $value["velocidad"] == 0){   )
+          <?php if ( $value["tipo"] == 'ST300STT' and $value["estado_io"][0] == 1 and $value["velocidad"] == 0){  
             $valor += formatotiempo($value["fecha"]);
           ?>
 
